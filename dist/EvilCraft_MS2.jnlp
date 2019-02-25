@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EvilCraft_MS2.jnlp">
+  <information>
+    <title>EvilCraft_MS2</title>
+    <vendor>csc190</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EvilCraft_MS2.jar" size="335044" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="EvilCraft_MS2" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="EvilCraftMilestone1.MainAppMS2"  name="EvilCraft_MS2" />
+  <update check="always"/>
+</jnlp>
